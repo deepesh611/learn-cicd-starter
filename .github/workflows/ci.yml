@@ -37,4 +37,7 @@ jobs:
       - name: Checking Style
         run: test -z $(go fmt ./...)
 
+      - name: Install staticcheck
+        run: staticcheck ./...
+
 
