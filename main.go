@@ -103,8 +103,6 @@ func main() {
 		ErrorLog:                     nil,
 		BaseContext:                  nil,
 		ConnContext:                  nil,
-		HTTP2:                        nil,
-		Protocols:                    nil,
 	}
 
 	log.Printf("Serving on port: %s\n", port)
